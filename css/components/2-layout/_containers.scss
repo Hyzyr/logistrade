@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 100%;
+  padding-top: 104px;
+}
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+// responsive
+@mixin containers-1160 {
+  .main {
+    padding-top: 96px;
+  }
+  .container {
+    padding: 0 40px;
+  }
+}
+@mixin containers-1025 {
+  .main {
+    padding-top: 86px;
+  }
+  .container {
+    padding: 0 30px;
+  }
+}
+@mixin containers-940 {
+  .container {
+    padding: 0 25px;
+  }
+}
+@mixin containers-768 {
+  .main {
+    padding-top: 76px;
+  }
+  .container {
+    padding: 0 15px;
+  }
+}
+@mixin containers-460{
+  .main {
+    padding-top: 72px;
+  }
+}

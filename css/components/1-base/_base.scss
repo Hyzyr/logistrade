@@ -1,0 +1,66 @@
+:root {
+  height: 100%;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba($color: #000, $alpha: 0.2);
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba($color: #000, $alpha: 0.3);
+}
+body {
+  height: 100%;
+  cursor: default;
+  font-size: 16px;
+  color: $black;
+  line-height: 1.6em;
+  font-weight: 400;
+  font-family: $font-primary;
+  background: $white;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+body.active {
+  overflow: hidden;
+}
+
+// responsive
+// @mixin base-1280 {
+// }
+@mixin base-1160 {
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+}
+// @mixin base-1025 {
+// }
+// @mixin base-940 {
+// }
+@mixin base-768 {
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+}
+// @mixin base-580 {
+// }
+// @mixin base-460 {
+// }
+// @mixin base-390 {
+// }

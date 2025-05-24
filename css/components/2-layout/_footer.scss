@@ -1,0 +1,30 @@
+.footer {
+  background: rgba($primary, 0.1);
+  padding: 15px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  p {
+    color: #7a7a7a;
+    font-size: 12px;
+
+    a {
+      white-space: nowrap;
+    }
+  }
+}
+// responsive
+@mixin footer-768 {
+  .footer {
+    &__inner {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}

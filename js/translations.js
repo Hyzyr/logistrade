@@ -71,7 +71,7 @@ i18next.use(i18nextBrowserLanguageDetector).init(
           },
           footer: {
             p1: `© 2025 All rights reserved | <a href="#">Terms and conditions</a> | <a href="#">Cookies policy</a>`,
-            p2: `Made with ❤ by <a href="#">Periscopik</a>`,
+            p2: `Created By <a target="_blank" href="https://github.com/Hyzyr/">Hyzyr</a>`,
           },
         },
       },
@@ -145,7 +145,7 @@ i18next.use(i18nextBrowserLanguageDetector).init(
           },
           footer: {
             p1: `© 2025 Todos los derechos reservados | <a href="#">Nota legal</a> | <a href="#">Política de cookies</a>`,
-            p2: `Made with ❤ by <a href="#">Periscopik</a>`,
+            p2: `Created By <a target="_blank" href="https://github.com/Hyzyr/">Hyzyr</a>`,
           },
         },
       },

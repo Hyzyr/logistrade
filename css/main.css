@@ -414,7 +414,7 @@ body.active {
   font-weight: 500;
 }
 .button--text:hover {
-  color: #4E71FF;
+  color: #4e71ff;
 }
 .button__image {
   display: flex;
@@ -429,7 +429,7 @@ body.active {
   -o-object-fit: contain;
 }
 .button--primary {
-  background: #4E71FF;
+  background: #4e71ff;
   color: #fff;
   font-weight: 500;
   padding: 0.7em 1.5em;
@@ -488,10 +488,10 @@ body.active {
   cursor: pointer;
 }
 .checkbox input:checked + span::before {
-  border-color: #4E71FF;
+  border-color: #4e71ff;
 }
 .checkbox input:checked + span:after {
-  border-color: #4E71FF;
+  border-color: #4e71ff;
 }
 .checkbox span {
   position: absolute;
@@ -543,7 +543,7 @@ body.active {
   cursor: pointer;
 }
 .checkbox__outer label a {
-  color: #4E71FF;
+  color: #4e71ff;
   font-style: normal;
   font-weight: 400;
   font-size: inherit;
@@ -703,7 +703,7 @@ body.active {
   width: 1em;
   height: 1em;
   border-radius: 50%;
-  background: #4E71FF;
+  background: #4e71ff;
 }
 .custIcon--rounded:after {
   top: 45%;
@@ -743,7 +743,7 @@ body.active {
   top: 50%;
   width: 0;
   height: 2px;
-  background: #4E71FF;
+  background: #4e71ff;
   transition: 0.3s ease;
   transform: translateY(-50%);
 }
@@ -784,22 +784,22 @@ body.active {
 }
 .stepper__item.done .stepper-icon {
   color: #fff;
-  background: #4E71FF;
+  background: #4e71ff;
   border-color: transparent;
 }
 .stepper__item.done .stepper__item-progress:after {
-  background: #4E71FF;
+  background: #4e71ff;
 }
 .stepper__item.done + .stepper__item > .stepper__item-progress::before {
-  background: #4E71FF;
+  background: #4e71ff;
 }
 .stepper__item.active .stepper-title {
-  color: #4E71FF;
+  color: #4e71ff;
 }
 .stepper__item.active .stepper-icon {
-  color: #4E71FF;
+  color: #4e71ff;
   background: #fff;
-  border-color: #4E71FF;
+  border-color: #4e71ff;
 }
 .stepper__item:first-child .stepper__item-progress::before {
   display: none;
@@ -821,7 +821,7 @@ body.active {
   box-shadow: 0 0 0 4px #fff;
   transition: all 0.25s ease-in-out 0s;
   -moz-transition: all 0.25s ease-in-out 0s;
-  color: #4E71FF;
+  color: #4e71ff;
   font-size: 0.9em;
   color: #000;
   font-weight: 400;
@@ -897,7 +897,7 @@ body.active {
   width: 1.55em;
   left: 0.333em;
   bottom: 0.333em;
-  background-color: #4E71FF;
+  background-color: #4e71ff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 50%;
@@ -912,7 +912,7 @@ body.active {
   z-index: 2;
 }
 .toggle input:checked + .toggle__switch .toggle__switch-slider::after {
-  border: 2px solid #4E71FF;
+  border: 2px solid #4e71ff;
 }
 .toggle input:checked + .toggle__switch .toggle__switch-slider:before {
   transform: translateX(1.944em);
@@ -1086,12 +1086,12 @@ body.active {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #4E71FF;
+  background: #4e71ff;
   transition: all 0.25s ease-in-out 0s;
   -moz-transition: all 0.25s ease-in-out 0s;
 }
 .nav__inner-link:hover {
-  color: #4E71FF;
+  color: #4e71ff;
 }
 .nav__inner-link.active::after {
   width: 100%;
@@ -1138,7 +1138,7 @@ body.active {
   opacity: 0.8;
 }
 .burger.active {
-  color: #4E71FF;
+  color: #4e71ff;
 }
 .burger.active::before {
   top: 50%;
@@ -1336,7 +1336,7 @@ body.active {
 .sectors__item .ico {
   width: 50px;
   height: 50px;
-  color: #4E71FF;
+  color: #4e71ff;
 }
 .sectors__item .ico._lg {
   width: 58px;
@@ -1345,7 +1345,7 @@ body.active {
 }
 
 .network {
-  background: hsl(228, 95%, 80%);
+  background: #7fa1ff;
   padding: 80px 0;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5) inset;
 }

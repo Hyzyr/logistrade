@@ -71,7 +71,7 @@ i18next.use(i18nextBrowserLanguageDetector).init(
           },
           footer: {
             p1: `© 2025 All rights reserved | <a href="/aalogistrade_terms_and_conditions_updated.pdf" target="_blank">Terms and conditions</a>`,
-            p2: `Created By <a target="_blank" href="https://github.com/Hyzyr/">Hyzyr</a>`,
+            p2: `Created By <a target="_blank" href="https://hyzyr.com">Hyzyr</a>`,
           },
         },
       },
@@ -145,7 +145,7 @@ i18next.use(i18nextBrowserLanguageDetector).init(
           },
           footer: {
             p1: `© 2025 Todos los derechos reservados | <a href="/aalogistrade_terms_and_conditions_updated.pdf" target="_blank">Nota legal</a> `,
-            p2: `Created By <a target="_blank" href="https://github.com/Hyzyr/">Hyzyr</a>`,
+            p2: `Created By <a target="_blank" href="https://hyzyr.com">Hyzyr</a>`,
           },
         },
       },
